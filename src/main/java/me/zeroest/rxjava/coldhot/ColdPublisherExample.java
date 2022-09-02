@@ -1,4 +1,4 @@
-package me.zeroest.rxjava;
+package me.zeroest.rxjava.coldhot;
 
 import io.reactivex.Flowable;
 

@@ -21,7 +21,12 @@
 
 ## 마블 다이어 그램
 
-> 리액티브 프로그래밍을 통해 발생하는  
-> **비동기적인 데이터의 흐름을 시간의 흐름에 따라** 시각적으로 표시한 다이어그램
+리액티브 프로그래밍을 통해 발생하는  
+**비동기적인 데이터의 흐름을 시간의 흐름에 따라** 시각적으로 표시한 다이어그램
 
 ![marble-diagram](./img/marble-diagram.png)
+
+[Observable with marble diagram](https://reactivex.io/documentation/ko/observable.html)
+
+[Operator Marble Diagram](https://rxmarbles.com/)
+

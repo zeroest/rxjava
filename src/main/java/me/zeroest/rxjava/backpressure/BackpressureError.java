@@ -8,6 +8,12 @@ import me.zeroest.rxjava.util.Logger;
 
 import java.util.concurrent.TimeUnit;
 
+/*
+- ERROR 전략
+
+통지된 데이터가 버퍼의 크기를 초과하면 MissingBackpressureException 에러를 통지한다.
+즉, 소비자가 생산자의 통지 속도를 따라 잡지 못할 때 발생한다.
+*/
 public class BackpressureError {
     public static void main(String[] args) throws InterruptedException {
         Flowable.interval(1L, TimeUnit.MILLISECONDS)

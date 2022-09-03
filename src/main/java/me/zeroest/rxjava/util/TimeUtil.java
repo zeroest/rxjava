@@ -6,7 +6,7 @@ import java.time.format.DateTimeFormatter;
 public class TimeUtil {
     public static long start;
     public static long end;
-    final static DateTimeFormatter formatter = DateTimeFormatter.ofPattern("HH:mm:ss.SSS");
+    private final static DateTimeFormatter formatter = DateTimeFormatter.ofPattern("HH:mm:ss.SSS");
 
     public static long start() {
         start = System.currentTimeMillis();

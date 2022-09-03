@@ -1,9 +1,9 @@
 
 # RxJava
 
-1. [Reactive Programming](./lecture/1reactive-programming.md)
-2. [Reactive Streams](./lecture/2reactive-streams.md)
-3. [Observable vs Flowable (Backpressure)](./lecture/3observable-flowable.md)
+1. [Reactive Programming](lecture/1-reactive_programming.md)
+2. [Reactive Streams](lecture/2-reactive_streams.md)
+3. [Observable vs Flowable (Backpressure)](lecture/3-observable_flowable.md)
 
 ## Reference
 

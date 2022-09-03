@@ -7,6 +7,12 @@ import me.zeroest.rxjava.util.Logger;
 
 import java.util.concurrent.TimeUnit;
 
+/*
+- MISSING 전략
+
+배압을 적용하지 않는다.
+나중에 onBackpressureXXX()로 배압 적용을 할 수 있다.
+*/
 public class BackpressureMissing {
     public static void main(String[] args) throws InterruptedException {
         Flowable.interval(1L, TimeUnit.MILLISECONDS)

@@ -9,6 +9,12 @@ import me.zeroest.rxjava.util.TimeUtil;
 
 import java.util.concurrent.TimeUnit;
 
+/*
+- BUFFER 전략 : DROP_OLDEST
+
+버퍼가 가득 찬 시점에 버퍼내에서 가장 오래전에(먼저) 버퍼로 들어온 데이터를 DROP
+DROP 된 빈 자리에는 버퍼 밖에서 대기하던 데이터를 채운다.
+*/
 public class BackpressureBufferDropOldest {
     public static void main(String[] args) throws InterruptedException {
         System.out.println("# start : " + TimeUtil.getCurrentTimeFormatted());

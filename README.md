@@ -6,7 +6,7 @@
 3. [Observable vs Flowable (Backpressure)](lecture/3-observable_flowable.md)
 4. [Single, Maybe, Completable](lecture/4_0-single_maybe_completable.md)
    - [subscribeOn vs observeOn](lecture/4_1-subscribeon_observeon.md)
-5. [Operators](lecture/5_O-operators.md)
+5. [Operators](lecture/5_0-operators.md)
    - [Creating](lecture/5_1-operators_creating.md)
    - [Filtering](lecture/5_2-operators_filtering.md)
    - [Transforming](lecture/5_3-operators_transforming.md)

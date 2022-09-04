@@ -31,6 +31,17 @@ public class Car {
         this.isNew = isNew;
     }
 
+    @Override
+    public String toString() {
+        return "Car{" +
+            "carMaker=" + carMaker +
+            ", carType=" + carType +
+            ", carName='" + carName + '\'' +
+            ", carPrice=" + carPrice +
+            ", isNew=" + isNew +
+            '}';
+    }
+
     public CarMaker getCarMaker() {
         return carMaker;
     }

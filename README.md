@@ -9,6 +9,7 @@
 5. [Operators](lecture/5_O-operators.md)
    - [Creating](lecture/5_1-operators_creating.md)
    - [Filtering](lecture/5_2-operators_filtering.md)
+   - [Transforming](lecture/5_3-operators_transforming.md)
 
 ## Reference
 

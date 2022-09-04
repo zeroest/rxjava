@@ -1,11 +1,6 @@
-package me.zeroest.rxjava.single_maybe_completeable.maybe;
+package me.zeroest.rxjava.single_maybe_completable.maybe;
 
 import io.reactivex.Maybe;
-import io.reactivex.MaybeEmitter;
-import io.reactivex.MaybeObserver;
-import io.reactivex.MaybeOnSubscribe;
-import io.reactivex.annotations.NonNull;
-import io.reactivex.disposables.Disposable;
 import io.reactivex.schedulers.Schedulers;
 import me.zeroest.rxjava.util.DateUtil;
 import me.zeroest.rxjava.util.LogType;

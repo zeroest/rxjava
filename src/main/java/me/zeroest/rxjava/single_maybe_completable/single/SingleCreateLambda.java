@@ -1,4 +1,4 @@
-package me.zeroest.rxjava.single_maybe_completeable.single;
+package me.zeroest.rxjava.single_maybe_completable.single;
 
 import io.reactivex.Single;
 import io.reactivex.schedulers.Schedulers;
@@ -7,9 +7,11 @@ import me.zeroest.rxjava.util.LogType;
 import me.zeroest.rxjava.util.Logger;
 import me.zeroest.rxjava.util.TimeUtil;
 
-public class SingleJust {
+public class SingleCreateLambda {
     public static void main(String[] args) {
-        Single.just(DateUtil.getNowDate())
+        Single<String> single = Single.create(emitter -> emitter.onSuccess(DateUtil.getNowDate()));
+
+        single
             .observeOn(Schedulers.computation())
             .subscribe(
                 data -> Logger.log(LogType.ON_SUCCESS, String.format("# date: %s", data)),

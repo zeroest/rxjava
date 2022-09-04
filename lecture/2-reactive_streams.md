@@ -49,12 +49,12 @@ Publisher(생산자)                                                  Subscriber
 
 ## Cold & Hot Publisher
 
-- Cold Publisher
+- Cold Publisher ([Example Code](../src/main/java/me/zeroest/rxjava/coldhot/ColdPublisherExample.java))
     - 생산자는 소비자가 구독 할때마다 데이터를 처음부터 새로 통지한다
     - 데이터를 통지하는 새로운 타임 라인이 생성된다
     - 소비자는 구독 시점과 상관없이 통지된 데이터를 처음부터 전달 받을 수 있다
 
-- Hot Publisher
+- Hot Publisher ([Example Code](../src/main/java/me/zeroest/rxjava/coldhot/HotPublisherExample.java))
     - 생산자는 소비자 수와 상관없이 데이터를 한번만 통지한다
     - 즉, 데이터를 통지하는 타임라인은 하나이다
     - 소비자는 발행된 데이터를 처음부터 전달 받는게 아니라  

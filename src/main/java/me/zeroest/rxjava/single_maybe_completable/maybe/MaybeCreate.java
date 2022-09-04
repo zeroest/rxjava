@@ -1,4 +1,4 @@
-package me.zeroest.rxjava.single_maybe_completeable.maybe;
+package me.zeroest.rxjava.single_maybe_completable.maybe;
 
 import io.reactivex.Maybe;
 import io.reactivex.MaybeEmitter;

@@ -1,4 +1,4 @@
-package me.zeroest.rxjava.single_maybe_completeable.subscribeon_observeon;
+package me.zeroest.rxjava.single_maybe_completable.subscribeon_observeon;
 
 public class MyUtil {
     static void printData(String message) {

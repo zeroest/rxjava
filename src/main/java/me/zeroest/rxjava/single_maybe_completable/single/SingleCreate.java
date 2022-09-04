@@ -1,4 +1,4 @@
-package me.zeroest.rxjava.single_maybe_completeable.single;
+package me.zeroest.rxjava.single_maybe_completable.single;
 
 import io.reactivex.Single;
 import io.reactivex.SingleEmitter;

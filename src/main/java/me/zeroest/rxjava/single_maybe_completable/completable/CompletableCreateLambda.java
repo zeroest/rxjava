@@ -1,4 +1,4 @@
-package me.zeroest.rxjava.single_maybe_completeable.completable;
+package me.zeroest.rxjava.single_maybe_completable.completable;
 
 import io.reactivex.Completable;
 import io.reactivex.schedulers.Schedulers;

@@ -9,4 +9,8 @@ public class DateUtil {
     public static String getNowDate() {
         return LocalDateTime.now().format(YYYY_MM_DD_HH_MM_SS);
     }
+
+    public static String getDateFormatted(LocalDateTime ldt) {
+        return ldt.format(YYYY_MM_DD_HH_MM_SS);
+    }
 }

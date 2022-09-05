@@ -1,6 +1,8 @@
 
 # Transforming
 
+[[Docs] Transforming Observables](https://reactivex.io/documentation/operators.html#transforming)
+
 ## [Map](https://reactivex.io/documentation/operators/map.html) ([Example Code](../src/main/java/me/zeroest/rxjava/operators/transforming/Map.java))
 
 ![marble diagram map](img/operators/transforming/marble_diagram-map.png)

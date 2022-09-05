@@ -1,6 +1,8 @@
 
 # Filtering
 
+[[Docs] Filtering Observables](https://reactivex.io/documentation/operators.html#filtering)
+
 ## [Filter](https://reactivex.io/documentation/operators/filter.html) ([Example Code](../src/main/java/me/zeroest/rxjava/operators/filtering/Filter.java))
 
 ![marble diagram filter](img/operators/filtering/marble_diagram-filter.png)

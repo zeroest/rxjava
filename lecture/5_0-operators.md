@@ -10,3 +10,4 @@
 ### [Error Handling](./5_5-operators_error_handling.md)
 ### [Utility](./5_6-operators_utility.md)
 ### [Conditional and Boolean](./5_7-operators_conditional_boolean.md)
+### [Mathematical and Aggregate](./5_8-operators_mathematical_aggregate.md)

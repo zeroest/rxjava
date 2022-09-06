@@ -14,6 +14,7 @@
    - [Error Handling](lecture/5_5-operators_error_handling.md)
    - [Utility](lecture/5_6-operators_utility.md)
    - [Conditional and Boolean](lecture/5_7-operators_conditional_boolean.md)
+   - [Mathematical and Aggregate](lecture/5_8-operators_mathematical_aggregate.md)
 
 ## Reference
 

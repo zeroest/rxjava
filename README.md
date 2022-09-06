@@ -12,6 +12,7 @@
    - [Transforming](lecture/5_3-operators_transforming.md)
    - [Combining](lecture/5_4-operators_combining.md)
    - [Error Handling](lecture/5_5-operators_error_handling.md)
+   - [Utility](lecture/5_6-operators_utility.md)
 
 ## Reference
 

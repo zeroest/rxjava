@@ -13,6 +13,7 @@
    - [Combining](lecture/5_4-operators_combining.md)
    - [Error Handling](lecture/5_5-operators_error_handling.md)
    - [Utility](lecture/5_6-operators_utility.md)
+   - [Conditional and Boolean](lecture/5_7-operators_conditional_boolean.md)
 
 ## Reference
 

@@ -11,6 +11,7 @@
    - [Filtering](lecture/5_2-operators_filtering.md)
    - [Transforming](lecture/5_3-operators_transforming.md)
    - [Combining](lecture/5_4-operators_combining.md)
+   - [Error Handling](lecture/5_4-operators_combining.md)
 
 ## Reference
 

@@ -2,11 +2,15 @@
 # RxJava
 
 1. [Reactive Programming](lecture/1-reactive_programming.md)
+   
 2. [Reactive Streams](lecture/2_0-reactive_streams.md)
    - [Reactive Streams Example](lecture/2_1-reactive_streams_example.md)
+   
 3. [Observable vs Flowable (Backpressure)](lecture/3-observable_flowable.md)
+   
 4. [Single, Maybe, Completable](lecture/4_0-single_maybe_completable.md)
    - [subscribeOn vs observeOn](lecture/4_1-subscribeon_observeon.md)
+   
 5. [Operators](lecture/5_0-operators.md)
    - [Creating](lecture/5_1-operators_creating.md)
    - [Filtering](lecture/5_2-operators_filtering.md)
@@ -16,6 +20,12 @@
    - [Utility](lecture/5_6-operators_utility.md)
    - [Conditional and Boolean](lecture/5_7-operators_conditional_boolean.md)
    - [Mathematical and Aggregate](lecture/5_8-operators_mathematical_aggregate.md)
+   
+6. [Processor, Subject](lecture/6_0-processor_subject.md)
+   - [PublishSubject](lecture/6_1-publish_subject.md)
+   - [AsyncSubject](lecture/6_2-async_subject.md)
+   - [BehaviorSubject](lecture/6_3-behavior_subject.md)
+   - [ReplaySubject](lecture/6_4-replay_subject.md)
 
 ## Reference
 

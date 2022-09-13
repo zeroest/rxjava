@@ -9,7 +9,6 @@
 3. [Observable vs Flowable (Backpressure)](lecture/3-observable_flowable.md)
    
 4. [Single, Maybe, Completable](lecture/4_0-single_maybe_completable.md)
-   - [subscribeOn vs observeOn](lecture/4_1-subscribeon_observeon.md)
    
 5. [Operators](lecture/5_0-operators.md)
    - [Creating](lecture/5_1-operators_creating.md)
@@ -26,6 +25,9 @@
    - [AsyncSubject](lecture/6_2-async_subject.md)
    - [BehaviorSubject](lecture/6_3-behavior_subject.md)
    - [ReplaySubject](lecture/6_4-replay_subject.md)
+   
+7. [Scheduler](lecture/7_0-scheduler.md)
+   - [subscribeOn vs observeOn](lecture/7_1-subscribeon_observeon.md)
 
 ## Reference
 

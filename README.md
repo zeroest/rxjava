@@ -29,6 +29,14 @@
 7. [Scheduler](lecture/7_0-scheduler.md)
    - [subscribeOn vs observeOn](lecture/7_1-subscribeon_observeon.md)
 
+8. [Do (Debugging)](lecture/8_0-do_xxx.md)
+   - [doOnSubscribe](lecture/8_1-do_on_subscribe.md)
+   - [doOnNext](lecture/8_2-do_on_next.md)
+   - [doOnComplete](lecture/8_3-do_on_complete.md)
+   - [doOnError](lecture/8_4-do_on_error.md)
+   - [doOnEach](lecture/8_5-do_on_each.md)
+   - [doOnDispose](lecture/8_6-do_on_dispose.md)
+
 ## Reference
 
 [ReactiveX](https://reactivex.io/)

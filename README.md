@@ -36,6 +36,8 @@
    - [doOnError](lecture/8_4-do_on_error.md)
    - [doOnEach](lecture/8_5-do_on_each.md)
    - [doOnDispose](lecture/8_6-do_on_dispose.md)
+   
+9. [Blocking (Unit Test)](lecture/9_0-blocking_xxx.md)
 
 ## Reference
 

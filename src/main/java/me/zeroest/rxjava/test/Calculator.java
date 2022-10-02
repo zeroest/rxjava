@@ -1,4 +1,4 @@
-package me.zeroest.rxjava.blocking_xxx;
+package me.zeroest.rxjava.test;
 
 public class Calculator {
     private int sum;

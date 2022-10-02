@@ -1,6 +1,7 @@
-package me.zeroest.rxjava.blocking_xxx;
+package me.zeroest.rxjava.test.blockingxxx;
 
 import io.reactivex.Observable;
+import me.zeroest.rxjava.test.SampleObservable;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;

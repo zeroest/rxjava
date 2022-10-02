@@ -1,6 +1,7 @@
-package me.zeroest.rxjava.blocking_xxx;
+package me.zeroest.rxjava.test.blockingxxx;
 
 import io.reactivex.Observable;
+import me.zeroest.rxjava.test.SampleObservable;
 import me.zeroest.rxjava.util.data.car.CarMaker;
 import org.junit.jupiter.api.Test;
 

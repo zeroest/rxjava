@@ -1,6 +1,7 @@
-package me.zeroest.rxjava.blocking_xxx;
+package me.zeroest.rxjava.test.blockingxxx;
 
 import io.reactivex.Observable;
+import me.zeroest.rxjava.test.SampleObservable;
 import me.zeroest.rxjava.util.data.car.Car;
 import org.junit.jupiter.api.Test;
 
@@ -9,10 +10,10 @@ import java.util.NoSuchElementException;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
-class BlockingFirstTest {
+class BlockingLastTest {
 
     @Test
-    public void getCarStreamFirstTest() {
+    public void getCarStreamLastTest() {
         /*
         new Car(CarMaker.CHEVROLET, "말리부", CarType.SEDAN, 23_000_000),
         new Car(CarMaker.HYUNDAE, "쏘렌토", CarType.SUV, 33_000_000),
@@ -26,19 +27,18 @@ class BlockingFirstTest {
         */
 
         // given
-        Observable<Car> observable = SampleObservable
-            .getCarStream();
+        Observable<Car> observable = SampleObservable.getCarStream();
 
         // when
-        Car car = observable.blockingFirst();
+        Car car = observable.blockingLast();
         String carName = car.getCarName();
 
         // then
-        assertEquals(carName, "말리부");
+        assertEquals(carName, "SM5");
     }
 
     @Test
-    public void getSalesOfBranchAFirstTest() {
+    public void getSalesOfBranchALastTest() {
         /*
         15_000_000, 25_000_000, 10_000_000, 35_000_000, 23_000_000, 40_000_000, 50_000_000, 45_000_000,
         35_000_000, 23_000_000, 15_000_000, 10_000_000
@@ -50,19 +50,22 @@ class BlockingFirstTest {
         // when
         Integer sales = observable
             .take(6)
-            .blockingFirst();
+            .blockingLast();
 
         // then
-        assertEquals(sales, 15_000_000);
+        assertEquals(sales, 40_000_000);
     }
 
     @Test
-    public void getEmptyFirstTest() {
+    public void getEmptyLastTest() {
         // given
         Observable<Integer> observable = SampleObservable.getEmptyStream();
 
         // when
-        assertThrows(NoSuchElementException.class, observable::blockingFirst);
+        assertThrows(NoSuchElementException.class, () ->
+            observable
+                .blockingLast()
+        );
     }
 
 }
